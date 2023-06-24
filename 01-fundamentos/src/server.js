@@ -18,10 +18,10 @@ const server = http.createServer((req, res) => {
       height: 1.8,
     });
 
-    return res.end("cadastrado");
+    return res.writeHead(201).end("cadastrado");
   }
 
-  return res.end("rota desconhecida");
+  return res.writeHead(404).end("rota desconhecida");
 });
 
 server.listen(3333);
