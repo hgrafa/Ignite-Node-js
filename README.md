@@ -1,8 +1,16 @@
-# Trilha Ignite - NodeJs
+# Trilha Ignite - NodeJs 🚀
+
+<span>
+  <img align="center" alt="Hugo-Cplusplus" height="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+  <img align="center" alt="Hugo-Cplusplus" height="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
+  <img align="center" alt="Hugo-Cplusplus" height="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" />
+  <img align="center" alt="Hugo-Cplusplus" height="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" />
+ 
+</span>
 
 ## Objetivos
 
-- **Principal:** Transferir meus conhecimentos em backend com Spring boot e Dotnet para o que há de mais moderno em `nodejs` e `nodets` no backend.
+- **Principal:** Transferir meus conhecimentos em backend com Spring boot e Dotnet para o que há de mais moderno em `nodeJS` e `nodeTS` no backend.
 - Estudar o funcionamento de `submodules` no git para auxiliar na criação de projetos com repositório próprio com os alunos.
 
 ## Desafios Realizados
