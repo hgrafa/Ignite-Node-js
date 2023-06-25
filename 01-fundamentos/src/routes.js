@@ -28,8 +28,23 @@ export const routes = [
     },
   },
   {
+    method: "PUT",
+    path: buildRoutePath("/users/:id"),
+    handler: (req, res) => {
+      const { id } = req.params;
+      const { name, age, height } = req.body;
+
+      database.update("users", id, {name, age, height});
+      return res.writeHead(204).end();
+    },
+  },
+  {
     method: "DELETE",
     path: buildRoutePath("/users/:id"),
-    handler: (req, res) => {},
+    handler: (req, res) => {
+      const { id } = req.params;
+      database.delete("users", id);
+      return res.writeHead(204).end();
+    },
   },
 ];

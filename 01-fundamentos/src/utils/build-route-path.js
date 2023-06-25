@@ -1,11 +1,11 @@
 export function buildRoutePath(path) {
-  const routerParametersRegex = /(:[a-zA-Z]+)/g;
+  const routerParametersRegex = /:([a-zA-Z]+)/g;
   const pathWithParams = path.replaceAll(
     routerParametersRegex,
-    "([a-z0-9]-_]+)"
+    '(?<$1>[a-z0-9\-_]+)'
   );
 
-  const pathRegex = new RegExp(`^${pathWithParams}`);
+  const pathRegex = new RegExp(`^${pathWithParams}(?<query>\\?(.*))?$`);
 
   return pathRegex;
 }
