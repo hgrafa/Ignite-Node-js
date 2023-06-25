@@ -2,6 +2,10 @@
 
 Objetivo: Transferir meus conhecimentos em backend com Spring boot e Dotnet para o que há de mais moderno em nodejs e nodets no backend.
 
+## Objetivos paralelos
+
+- Estudar o funcionamento de `submodules` no git para auxiliar na criação de projetos com repositório próprio com os alunos.
+
 ## Desafios Realizados
 
 |                                            Desafio                                            |                             Descrição                              |
